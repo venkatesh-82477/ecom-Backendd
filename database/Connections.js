@@ -1,5 +1,5 @@
 const { MongoClient } = require("mongodb")
-const url = "mongodb+srv://venkatesh222:BLO8Idl5Pz6AFYzC@cluster0.ghqbuqp.mongodb.net/?retryWrites=true&w=majority"
+const url = "mongodb+srv://venkatesh222:BLO8Idl5Pz6AFYzC@cluster0.ghqbuqp.mongodb.net/ecomProject?retryWrites=true&w=majority"
 
 const client = new MongoClient(url)
 const findAllFrom = async (query,collectionName) =>{
